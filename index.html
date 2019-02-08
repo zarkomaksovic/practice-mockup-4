@@ -31,7 +31,7 @@
             <div class="row flex">
                 <!-- logo -->
                 <div class="logo col-lg-2">
-                    <a href="#about">
+                    <a href="#slider">
                         <h3>
                             Mark's Dinner
                         </h3>
@@ -69,7 +69,7 @@
     </header>
 
     <!-- SLIDER -->
-    <section class="slider">
+    <section class="slider" id="slider">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
@@ -217,7 +217,6 @@
     <section class="specials" id="menu">
         <div class="container">
             <div class="row">
-                <!-- headlines -->
                 <div class="col-lg-8">
                     <h1>
                         Our Specials
@@ -225,72 +224,138 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-10 col-10 space">
-                    <a href="#">
-                        <h3>Appetisers</h3>
-                    </a>
-                </div>
-                <div class="col-lg-3 col-sm-10 col-10 space">
-                    <a href="#">
-                        <h3>Main Dishes</h3>
-                    </a>
-                </div>
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#Appetisers" role="tab"
+                            aria-controls="home" aria-selected="true">
+                            <h3>
+                                Appetisers
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#Main-dishes" role="tab"
+                            aria-controls="profile" aria-selected="false">
+                            <h3>
+                                Main Dishes
+                            </h3>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#Deserts" role="tab" aria-controls="contact"
+                            aria-selected="false">
+                            <h3>
+                                Deserts
+                            </h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="row tab-pane fade show active in" id="Appetisers" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal1.jpg" alt=" no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal11.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal111.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                    </div>
 
-                <div class="col-lg-3 col-sm-10 col-10 space">
-                    <a href="#">
-                        <h3>Desserts</h3>
                 </div>
-                </a>
-            </div>
-            <!-- images for specials -->
-            <div class="row">
-                <div class="col-lg-4 col-10 space2">
-                    <img src="img/meal1.jpg" />
+                <div class="row tab-pane fade" id="Main-dishes" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal2.jpg" alt=" no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal22.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal222.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-lg-4 col-10 space2">
-                    <img src="img/meal3.jpg" />
-                </div>
-                <div class="col-lg-4 col-10 space2">
-                    <img src="img/meal2.jpg" />
-                </div>
-            </div>
-            <!-- description for specials -->
-            <div class="row">
-                <div class="col-lg-4 space2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="col-lg-4 space2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
-                </div>
-                <div class="col-lg-4 space2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Illo vero veniam eum magni aut aliquam praesentium minus
-                        sunt, in, nemo dolore harum. Illo labore ratione, totam
-                        quidem hic asperiores? Esse!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </p>
+                <div class="row tab-pane fade" id="Deserts" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row">
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal3.jpg" alt=" no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal33.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space2">
+                            <img src="img/meal333.jpg" alt="no image">
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                        <div class="col-lg-4 col-10 space">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Illo vero veniam eum magni aut aliquam praesentium minus
+                                sunt, in, nemo dolore harum. Illo labore ratione, totam
+                                quidem hic asperiores? Esse!
+                            </p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -497,9 +562,9 @@
                     </div>
                 </div>
                 <!-- map added, exact location missing -->
-                <div class="col-lg-12 order4">
+                <div class="col-lg-12 order4" id="location">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d91813.88220960481!2d20.83679187052581!3d44.01759580834562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475720dbdee00fd9%3A0xdfa77784524b968!2z0JrRgNCw0LPRg9GY0LXQstCw0YY!5e0!3m2!1ssr!2srs!4v1548856709184"
-                        width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
@@ -510,6 +575,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/custom.js" type="text/javascript"></script>
 </body>
 
 </html>
